@@ -6,7 +6,11 @@ import b2b from '../../../public/b2b.png';
 import b2bsales from '../../../public/b2bsales.png';
 import justintime from '../../../public/justintime.png';
 
-const images = {
+interface ImageObject {
+  [key: string]: string;
+}
+
+const images: ImageObject = {
   b2b: b2b,
   b2bsales: b2bsales,
   justintime: justintime,
